@@ -1,0 +1,32 @@
+* {
+  /* max-width: 1280px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("couple-home-together-with-tablet-headphones\ 1.png"); /* Background image */
+  background-size: cover; /* Cover the entire body */
+  background-position: center; /* Center the background image */
+  color: #333; /* Text color */
+  font-family: Arial, sans-serif; /* Font family */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.header {
+  height: 86.77px;
+  background: #111828;
+}
+
+.footer {
+  background-color: #111828;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+}
