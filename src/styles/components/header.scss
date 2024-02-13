@@ -1,0 +1,45 @@
+.header{
+    .container{
+        position: relative;
+        background: #111828;
+        height: 86.77px;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;        
+        padding: 50px;
+
+        .nav{         
+            position: absolute;   
+            right: 0%;
+            transform: translateX(0);
+            width: auto;
+            .navlinks{                
+                color: #fff;
+                margin-right: 20px;
+                font-size: 12px;
+
+                &.login, &.signup{
+                    width: 77px;
+                    font-size: 14px;
+                    border-radius: 6px;
+                    padding: 7px 20px;                    
+                    cursor: pointer;
+                }
+                &.login{
+                    border: 2px solid var(--primary-color);                    
+                    &:hover{                        
+                        border: 2px solid#fff;                    
+                    }
+                }
+                &.signup{
+                    margin-right: 50px;
+                    background: var(--primary-color);
+                    &:hover{
+                        background: none;
+                        border: 1px solid var(--primary-color);                    
+                    }
+                }
+            }
+        }
+    }
+}
