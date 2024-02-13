@@ -3,9 +3,48 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 941px;    
-    .container{
+    position: relative;
+    .container{       
+        position: absolute; 
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         .hero-section{
+            font-size: 64px;
+            line-height: 96px;
+            text-align: center;
+            width: 991px;
+            color: #fff;
+        }
 
+        .search-container{  
+            position: absolute;          
+            left: 50%;
+            transform: translateX(-50%);
+            display: inline-flex;
+            align-items: center;
+            width: 419px;
+            height: 54px;
+            border: 3px solid #fff;
+            border-radius: 27px;
+            margin-top: 30px;
+            padding: 10px 20px 0 20px;
+            .search-icon{
+
+            }
+            input{
+                background: none;
+                outline: none;
+                border: none;
+                margin-left: 5px;
+                margin-top: -5px;                
+                &::placeholder{
+                    color: #fff;
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-weight: 275;
+                }
+            }
         }
     }
 }
