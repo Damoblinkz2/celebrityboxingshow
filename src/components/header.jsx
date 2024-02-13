@@ -7,6 +7,9 @@ const Header = () => {
         <div className="container">
           <div className="logo">
             <img src="" alt="" />
+            <span className="logo-text">
+                WCNBE
+            </span>
           </div>
           <div className="nav">
             <span className="navlinks">Home</span>
