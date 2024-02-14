@@ -1,5 +1,5 @@
 .header {
-  .container {
+  .header-container {
     position: relative;
     background: var(--primary-color-black);
     height: 86.77px;
@@ -18,12 +18,19 @@
       }
     }
 
-    .nav {
+    .navigation-bar {
       position: absolute;
       right: 0%;
       transform: translateX(0);
       width: auto;
+      a{
+        text-decoration: none;
+        display: unset;
+      }
       .navlinks {
+        &.active{
+          color: var(--primary-color);
+        }
         color: #fff;
         margin-right: 20px;
         font-size: 12px;

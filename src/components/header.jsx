@@ -1,18 +1,18 @@
-import "../styles/components/header.scss";
 import { Link } from "react-router-dom";
+import "../styles/components/header.scss";
 
 const Header = () => {
   return (
     <>
       <section className="header">
-        <div className="container">
+        <div className="header-container">
           <div className="logo">
             <img src="" alt="" />
             <span className="logo-text">WCNBE</span>
           </div>
-          <div className="nav">
+          <div className="navigation-bar">
             <Link to="/">
-              <span className="navlinks">Home</span>
+              <span className="navlinks active">Home</span>
             </Link>
 
             <span className="navlinks">News</span>
