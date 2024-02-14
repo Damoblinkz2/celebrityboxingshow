@@ -1,0 +1,91 @@
+
+.signup-page{
+    background: url("../../assets/images/homepageBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(41.5%);
+    height: 941px;
+    position: relative;
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow: hidden;
+      background-color: #ffffff;
+      border-radius: 50px;
+
+      .container-row{
+        
+      .form-container {
+        position: relative;
+        .form{
+          position: absolute;
+          left: 40%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          padding: 20px;
+
+          .title h1{
+            height: 72px;
+            top: 270px;
+            padding-left: 10px;
+            margin-bottom: 30px;
+            left: 213px;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 72px;
+            letter-spacing: 0em;
+            text-align: left;
+            color:#4A4A4A;
+        }
+        .formfield span{
+          line-height: 24px;
+          height: 24px;
+          padding-left: 10px;
+          color: #55585e;
+        }
+        .formfield .input{
+          width: 357px;
+          height: 50px;
+          top: 439px;
+          left: 213px;
+          border-radius: 8px;
+          border: 1px solid #b0b0b0;
+          background: #ffffff;
+          margin: 10px;
+          
+          
+          input{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            padding: 10px;
+            border: none;
+            border-radius: 1px;
+          }
+        }
+        .formfield #submit{
+          background-color: #111828;
+          border: 1px solid #111828;
+          margin-top: 15px;
+          
+          input{
+            color: #ffffff;
+          }
+        }
+      }
+      }
+      
+
+      .hero-img{
+        padding: 0;
+       img{
+        width: 100%;
+        object-fit: cover;
+       }
+      }
+    }
+    }
+ }
