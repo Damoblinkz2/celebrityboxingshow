@@ -1,4 +1,5 @@
 import "../styles/components/header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,12 +8,12 @@ const Header = () => {
         <div className="container">
           <div className="logo">
             <img src="" alt="" />
-            <span className="logo-text">
-                WCNBE
-            </span>
+            <span className="logo-text">WCNBE</span>
           </div>
           <div className="nav">
-            <span className="navlinks">Home</span>
+            <Link to="/">
+              <span className="navlinks">Home</span>
+            </Link>
 
             <span className="navlinks">News</span>
 
@@ -20,9 +21,13 @@ const Header = () => {
 
             <span className="navlinks">Contact Us</span>
 
-            <span className="navlinks login">Log In</span>
+            <Link to="/login">
+              <span className="navlinks login">Log In</span>
+            </Link>
 
-            <span className="navlinks signup">Sign Up</span>
+            <Link to="/signup">
+              <span className="navlinks signup">Sign Up</span>
+            </Link>
           </div>
         </div>
       </section>
