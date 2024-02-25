@@ -1,0 +1,23 @@
+.footer {
+    .footer-container {
+      position: relative;
+      background: var(--primary-color-black);
+      height: 86.77px;
+      width: 100%;
+      display: inline-flex;
+      align-items: center;
+      padding: 50px;
+  
+      .copyright {
+        .copyright-text {
+          padding: 7px 20px;
+          border-radius: 6px;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+  
+
+    }
+  }
+  

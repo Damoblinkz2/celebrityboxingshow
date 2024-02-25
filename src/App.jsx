@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/home";
 import SignUP from "./pages/signup";
 import Login from "./pages/login";
 import Header from "./components/header";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route exact path="/signup" index element={<SignUP />} />
         <Route exact path="/login" index element={<Login />} />
       </Routes>
+      <Footer />
     </>
   );
 };
