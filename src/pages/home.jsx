@@ -35,40 +35,40 @@ const Home = () => {
               <span>Vote Now</span>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="section-one">
-            <div className="section-container">
-              <div>
-                <img src={gloves} alt="" />
-              </div>
-              <div className="section-one-text">
-                <h3>Watch Them Go head-to-head! </h3>
-                <p>Vote for your favourite celebrities!</p>
-              </div>
+      <section className="section-one">
+        <div className="section-container">
+          <div>
+            <img src={gloves} alt="" />
+          </div>
+          <div className="section-one-text">
+            <h3>Watch Them Go head-to-head! </h3>
+            <p>Vote for your favourite celebrities!</p>
+          </div>
 
-              <div className="features">
-                <div className="features-container">
-                  <div className="feature">
-                    <div>
-                      <img src={voteIcon} alt="voteIcon" />
-                    </div>
-                    <div className="feature-text">Vote</div>
-                  </div>
-
-                  <div className="feature">
-                    <div>
-                      <img src={streamIcon} alt="streamIcon" />
-                    </div>
-                    <div className="feature-text">Stream</div>
-                  </div>
-
-                  <div className="feature">
-                    <div>
-                      <img src={spinIcon} alt="spinIcon" />
-                    </div>
-                    <div className="feature-text">Spin</div>
-                  </div>
+          <div className="features">
+            <div className="features-container">
+              <div className="feature">
+                <div>
+                  <img src={voteIcon} alt="voteIcon" />
                 </div>
+                <div className="feature-text">Vote</div>
+              </div>
+
+              <div className="feature">
+                <div>
+                  <img src={streamIcon} alt="streamIcon" />
+                </div>
+                <div className="feature-text">Stream</div>
+              </div>
+
+              <div className="feature">
+                <div>
+                  <img src={spinIcon} alt="spinIcon" />
+                </div>
+                <div className="feature-text">Spin</div>
               </div>
             </div>
           </div>
@@ -82,12 +82,86 @@ const Home = () => {
           </div>
 
           <div className="contents">
-            <div className="content">
-              <span className="img">
-                <img src={wizkidImage} alt="wizzy" />
-              </span>
+            <div className="content-container">
+              <div className="content">
+                <span className="img">
+                  <img src={wizkidImage} alt="wizzy" />
+                </span>
+              </div>
               <div className="content-text">
+                <div className="innerText">
+                  WIZKID
+                </div>
+                <div className="text">
                 Click here to vote <img src={voteIcon} alt="vote" />
+                </div>
+              </div>
+            </div>
+
+            <div className="content-container">
+              <div className="content">
+                <span className="img">
+                  <img src={wizkidImage} alt="wizzy" />
+                </span>
+              </div>
+              <div className="content-text">
+                <div className="innerText">
+                  WIZKID
+                </div>
+                <div className="text">
+                Click here to vote <img src={voteIcon} alt="vote" />
+                </div>
+              </div>
+            </div>
+
+
+            <div className="content-container">
+              <div className="content">
+                <span className="img">
+                  <img src={wizkidImage} alt="wizzy" />
+                </span>
+              </div>
+              <div className="content-text">
+                <div className="innerText">
+                  WIZKID
+                </div>
+                <div className="text">
+                Click here to vote <img src={voteIcon} alt="vote" />
+                </div>
+              </div>
+            </div>
+
+
+            <div className="content-container">
+              <div className="content">
+                <span className="img">
+                  <img src={wizkidImage} alt="wizzy" />
+                </span>
+              </div>
+              <div className="content-text">
+                <div className="innerText">
+                  WIZKID
+                </div>
+                <div className="text">
+                Click here to vote <img src={voteIcon} alt="vote" />
+                </div>
+              </div>
+            </div>
+
+
+            <div className="content-container">
+              <div className="content">
+                <span className="img">
+                  <img src={wizkidImage} alt="wizzy" />
+                </span>
+              </div>
+              <div className="content-text">
+                <div className="innerText">
+                  WIZKID
+                </div>
+                <div className="text">
+                Click here to vote <img src={voteIcon} alt="vote" />
+                </div>
               </div>
             </div>
           </div>
