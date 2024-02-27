@@ -7,7 +7,7 @@ const Header = () => {
       <section className="header">
         <div className="header-container">
           <div className="logo">
-            <img src="" alt="" />
+            {/* <img src="" alt="" /> */}
             <span className="logo-text">WCNBE</span>
           </div>
           <div className="navigation-bar">
