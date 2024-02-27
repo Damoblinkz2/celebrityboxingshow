@@ -5,6 +5,10 @@ import streamIcon from "../assets/icons/stream.svg";
 import spinIcon from "../assets/icons/spin.svg";
 import gloves from "../assets/images/gloves.svg";
 import wizkidImage from "../assets/images/wizkid.jfif";
+import inpersonTicket from "../assets/images/inpersonTicket.svg";
+import livestreamTicket from "../assets/images/livestreamTicket.svg";
+import phone from "../assets/images/phone.png";
+import laptop from "../assets/images/laptop.png";
 
 const Home = () => {
   return (
@@ -89,11 +93,9 @@ const Home = () => {
                 </span>
               </div>
               <div className="content-text">
-                <div className="innerText">
-                  WIZKID
-                </div>
+                <div className="innerText">WIZKID</div>
                 <div className="text">
-                Click here to vote <img src={voteIcon} alt="vote" />
+                  Click here to vote <img src={voteIcon} alt="vote" />
                 </div>
               </div>
             </div>
@@ -105,15 +107,12 @@ const Home = () => {
                 </span>
               </div>
               <div className="content-text">
-                <div className="innerText">
-                  WIZKID
-                </div>
+                <div className="innerText">WIZKID</div>
                 <div className="text">
-                Click here to vote <img src={voteIcon} alt="vote" />
+                  Click here to vote <img src={voteIcon} alt="vote" />
                 </div>
               </div>
             </div>
-
 
             <div className="content-container">
               <div className="content">
@@ -122,15 +121,12 @@ const Home = () => {
                 </span>
               </div>
               <div className="content-text">
-                <div className="innerText">
-                  WIZKID
-                </div>
+                <div className="innerText">WIZKID</div>
                 <div className="text">
-                Click here to vote <img src={voteIcon} alt="vote" />
+                  Click here to vote <img src={voteIcon} alt="vote" />
                 </div>
               </div>
             </div>
-
 
             <div className="content-container">
               <div className="content">
@@ -139,15 +135,12 @@ const Home = () => {
                 </span>
               </div>
               <div className="content-text">
-                <div className="innerText">
-                  WIZKID
-                </div>
+                <div className="innerText">WIZKID</div>
                 <div className="text">
-                Click here to vote <img src={voteIcon} alt="vote" />
+                  Click here to vote <img src={voteIcon} alt="vote" />
                 </div>
               </div>
             </div>
-
 
             <div className="content-container">
               <div className="content">
@@ -156,13 +149,52 @@ const Home = () => {
                 </span>
               </div>
               <div className="content-text">
-                <div className="innerText">
-                  WIZKID
-                </div>
+                <div className="innerText">WIZKID</div>
                 <div className="text">
-                Click here to vote <img src={voteIcon} alt="vote" />
+                  Click here to vote <img src={voteIcon} alt="vote" />
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="section-footer">
+            <h3>Every vote counts. Choose your champion!</h3>
+            <p>Vote now and unlock the spin wheel!</p>
+          </div>
+        </div>
+      </section>
+      <section className="section-three">
+        <div className="section-container">
+          <div className="content-one">
+            <h3>GET YOUR TICKETS NOW!</h3>
+            <p>Be there live or witness the action virtually!</p>
+
+            <img src={inpersonTicket} alt="inperson" />
+            <img src={livestreamTicket} alt="livestream" />
+          </div>
+          <div className="content-two">
+            <img src={phone} alt="phone" />
+          </div>
+        </div>
+      </section>
+      <section className="section-four">
+        <div className="section-container">
+        <div className="background"></div>      
+          <div className="content-one">              
+              <img src={laptop} alt="" />            
+          </div>
+          <div className="content-two">
+            <div className="one">
+              <h3>Experience the fight from anywhere! LIVE-STREAM!</h3>
+              <p>Get exclusive access when you purchase a ticket!</p>
+            </div>            
+            <div className="two">                           
+                <h3>Book Your LIVE-STREAM Access Now!</h3>
+                <p>
+                  Experience the action from anywhere in the world! Our premium
+                  live stream offers multiple camera angles and expert commentary.
+                </p>
+                <div className="btn">Purchase Ticket</div>              
             </div>
           </div>
         </div>
