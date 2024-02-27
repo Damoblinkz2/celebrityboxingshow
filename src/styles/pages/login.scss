@@ -1,133 +1,131 @@
-.container-fluid{
+.container-fluid {
+  .container-row {
+    .hero-img {
+      overflow: hidden;
+      padding: 0;
+      background: url("../../assets/images/homepageBackground.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
 
-    .container-row{
-  
-      .hero-img{
-        overflow: hidden;
-        padding: 0;
-        background: url("../../assets/images/homepageBackground.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        position:relative;
-  
-        .hero-img-title{
-          position: absolute;
-          top: 20%;
-          padding: 10%;
-          color: #fff;
-        }
+      .hero-img-title {
+        position: absolute;
+        top: 20%;
+        padding: 10%;
+        color: #fff;
       }
-  
-      .form-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-  
-        .form{
-  
-            .title h1{
-              height: 72px;
-              top: 270px;
-              padding-left: 10px;
-              margin-bottom: 30px;
-              left: 213px;
-              font-size: 40px;
-              font-weight: 600;
-              line-height: 72px;
-              letter-spacing: 0em;
-              text-align: left;
-              color:#4A4A4A;
-          }
-  
-          .auth{
-            display: flex;
-            width: 530px;
-            height: 52.29px;
-            margin: 20px 10px 60px;
-            justify-content: space-between;
-  
-            .auth-in{
-              width: 244.51px;
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+
+      .form {
+        .title h1 {
+          height: 72px;
+          top: 270px;
+          padding-left: 10px;
+          margin-bottom: 30px;
+          left: 213px;
+          font-size: 40px;
+          font-weight: 600;
+          line-height: 72px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #4a4a4a;
+        }
+
+        .auth {
+          display: flex;
+          width: 530px;
+          // height: 52.29px;
+          // margin: 20px 10px 60px;
+          justify-content: space-between;
+
+          .auth-in {
+            width: 244.51px;
+            height: 100%;
+            border-radius: 7.07px;
+            border: 0.71px solid #a3a3a3;            
+
+            button {
               height: 100%;
-              border-radius: 7.07px;
-              border: 0.71px solid #a3a3a3;
-  
-              button{
-                height: 100%;
-                width: 100%;
-                background: none;
-                border: none;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-  
-                span{
-                  font-size: 14.13px;
-                  font-weight: 400;
-                  color: #2d2c3c;
-                }
+              width: 100%;
+              background: none;
+              border: none;
+              display: flex;
+              justify-content: center;              
+              align-items: center;                      
+
+              span {
+                font-size: 14.13px;
+                font-weight: 400;
+                color: #2d2c3c;
+                margin-left: 10px;
               }
             }
           }
-          .formfield{
-            margin: 50px 0;
-          }
-          .formfield span{
-            line-height: 24px;
-            height: 24px;
-            color: #55585e;
-          }
-          .formfield .input{
-            width: 534px;
-            height: 75.96px;
-            background: #ffffff;
-            margin: 10px;
-            
-            
-            input{
-              height: 52.69px;
-              width: 100%;
-              background-color: transparent;
-              padding: 10px;
-              border: 1px solid #b0b0b0;
-              border-radius: 8px;
-            }
+        }
+        .formfield {
+          // margin: 50px 0;
+        }
+        .formfield span {
+          line-height: 24px;
+          height: 24px;
+          color: #55585e;
+          margin-top: 30px !important;
+        }
+        .formfield .input {
+          width: 534px;
+          height: 75.96px;
+          background: #ffffff;
+          margin: 10px;
+
+          input {
+            height: 52.69px;
+            width: 100%;
+            background-color: transparent;
+            padding: 10px;
+            border: 1px solid #b0b0b0;
+            border-radius: 8px;            
           }
         }
-        .formfield .submit{
-          width: 534px;
-          height:52.69px;
-          top: 439px;
-            margin: 10px;
-          background-color: #111828;
-          border: 1px solid #111828;
-          margin-top: 15px;
-          border: none;
-          border-radius: 8px;
-                    
-          input{
-              color: #ffffff;
-              height: 100%;
-              width: 100%;
-              border: none;
-              background-color: transparent;
-              border-radius: 8px;
-             }
-         }
-  
-         .formfield p{
-          font-size: 14.13px;
-          font-weight: 500;
-          line-height: 21.19px;
-          color: #636363;
-          margin-left: 10px;
-           
-          span{
-            font-weight: bolder;
-            text-decoration: none;
-          }
-         }
       }
-      
+      .formfield .submit {
+        width: 534px;
+        height: 52.69px;
+        top: 439px;
+        margin: 10px;
+        background-color: #111828;
+        border: 1px solid #111828;
+        margin-top: 15px;
+        border: none;
+        border-radius: 8px;
+
+        input {
+          color: #ffffff;
+          height: 100%;
+          width: 100%;
+          border: none;
+          background-color: transparent;
+          border-radius: 8px;
+        }
+      }
+
+      .formfield p {
+        font-size: 14.13px;
+        font-weight: 500;
+        line-height: 21.19px;
+        color: #636363;
+        margin-left: 10px;
+
+        span {
+          font-weight: bolder;
+          text-decoration: none;
+        }
+      }
     }
   }
+}

@@ -34,7 +34,9 @@ const Login = () => {
                     </button>
                   </div>
                 </div>
-                <hr />
+                <div className="separator">
+                  <span>OR</span>
+                </div>
                 <form action="" className="login-form formfield">
                   <div className="input" id="email">
                     <span>Email Address</span>

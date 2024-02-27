@@ -1,16 +1,16 @@
 import "../styles/components/footer.scss";
-// let currentYear = new Date().getFullYear();
 const Footer = () => {
+  let currentYear = new Date().getFullYear();
   return (
     <>
-      <section className="footer">
+      {/* <section className="footer">
         <div className="footer-container">
           <div className="copyright">
             <span className="copyright-text">copyright</span>
           </div>
           <div className="social-links"></div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

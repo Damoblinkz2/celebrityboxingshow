@@ -34,7 +34,9 @@ const SignUP = () => {
                     </button>
                   </div>
                 </div>
-                <hr />
+                <div className="separator">
+                  <span>OR</span>
+                </div>
                 <form action="" className="signup-form formfield">
                   <div className="input" id="name">
                     <span>Full Name</span>

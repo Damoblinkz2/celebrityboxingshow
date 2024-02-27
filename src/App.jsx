@@ -16,7 +16,7 @@ const App = () => {
         <Route exact path="/signup" index element={<SignUP />} />
         <Route exact path="/login" index element={<Login />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

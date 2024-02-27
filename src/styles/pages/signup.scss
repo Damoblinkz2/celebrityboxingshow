@@ -1,16 +1,14 @@
-.container-fluid{
-
-  .container-row{
-
-    .hero-img{
+.container-fluid {
+  .container-row {
+    .hero-img {
       overflow: hidden;
       padding: 0;
       background: url("../../assets/images/homepageBackground.png");
       background-repeat: no-repeat;
       background-size: cover;
-      position:relative;
+      position: relative;
 
-      .hero-img-title{
+      .hero-img-title {
         position: absolute;
         top: 20%;
         padding: 10%;
@@ -18,50 +16,48 @@
       }
     }
 
-    .form-container{
+    .form-container {
       display: flex;
       justify-content: center;
       align-items: center;
-
-      .form{
-
-          .title h1{
-            height: 72px;
-            top: 270px;
-            padding-left: 10px;
-            margin-bottom: 30px;
-            left: 213px;
-            font-size: 40px;
-            font-weight: 600;
-            line-height: 72px;
-            letter-spacing: 0em;
-            text-align: left;
-            color:#4A4A4A;
+      .form {
+        .title h1 {
+          height: 72px;
+          top: 270px;
+          padding-left: 10px;
+          margin-bottom: 30px;
+          left: 213px;
+          font-size: 40px;
+          font-weight: 600;
+          line-height: 72px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #4a4a4a;
         }
 
-        .auth{
+        .auth {
           display: flex;
           width: 530px;
           height: 52.29px;
-          margin: 20px 10px 60px;
+          margin: 20px 10px 20px;
           justify-content: space-between;
 
-          .auth-in{
+          .auth-in {
             width: 244.51px;
             height: 100%;
             border-radius: 7.07px;
             border: 0.71px solid #a3a3a3;
 
-            button{
+            button {
               height: 100%;
               width: 100%;
               background: none;
               border: none;
               display: flex;
-              justify-content: space-around;
+              justify-content: unset;
               align-items: center;
 
-              span{
+              span {
                 font-size: 14.13px;
                 font-weight: 400;
                 color: #2d2c3c;
@@ -69,22 +65,36 @@
             }
           }
         }
-        .formfield{
-          margin: 50px 0;
+        .separator {
+          text-align: center;
+          border-bottom: 2px solid #eee;
+          line-height: 0;
+          margin: 10px 0 20px;
+          font-size: 19.6px;
+          font-weight: 500;
+          margin: 36px 0;
+          width: 100%;
+          color: #a3a3a3;
+          span {
+            padding: 0 10px;
+            background: #fff;
+          }
         }
-        .formfield span{
+        .formfield {
+          margin: 30px 0;
+        }
+        .formfield span {
           line-height: 24px;
           height: 24px;
           color: #55585e;
         }
-        .formfield .input{
+        .formfield .input {
           width: 534px;
           height: 75.96px;
           background: #ffffff;
           margin: 10px;
-          
-          
-          input{
+
+          input {
             height: 52.69px;
             width: 100%;
             background-color: transparent;
@@ -95,39 +105,38 @@
           }
         }
       }
-      .formfield .submit{
+      .formfield .submit {
         width: 534px;
-        height:52.69px;
+        height: 52.69px;
         top: 439px;
-          margin: 10px;
+        margin: 10px;
         background-color: #111828;
         border: 1px solid #111828;
         margin-top: 15px;
         border: none;
         border-radius: 8px;
-                  
-        input{
-            color: #ffffff;
-            height: 100%;
-            width: 100%;
-            background-color: transparent;
-            border-radius: 8px;
-           }
-       }
 
-       .formfield p{
+        input {
+          color: #ffffff;
+          height: 100%;
+          width: 100%;
+          background-color: transparent;
+          border-radius: 8px;
+        }
+      }
+
+      .formfield p {
         font-size: 14.13px;
         font-weight: 500;
         line-height: 21.19px;
         color: #636363;
         margin-left: 10px;
-         
-        span{
+
+        span {
           font-weight: bolder;
           text-decoration: none;
         }
-       }
+      }
     }
-    
   }
 }
