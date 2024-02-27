@@ -357,7 +357,7 @@
       img {
         z-index: 1;
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 80px;
         object-fit: cover;
         width: 100%;
       }
@@ -417,6 +417,34 @@
           letter-spacing: 0em;
           text-align: center;
           color: #fff;
+        }
+      }
+    }
+  }
+}
+.footer {
+  background: #0a075f;
+  .section-container {
+    padding: 30px 50px;
+    color: #fff;
+    .contents {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      .content {
+        display: grid;
+        align-items: center;
+        div:nth-child(1) {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 23px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-bottom: 30px;
+        }
+        &:nth-child(1) {
+          p {
+            width: 412px;
+          }
         }
       }
     }

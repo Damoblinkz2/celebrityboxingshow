@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../styles/components/header.scss";
+import logo from "../assets/images/logo.png";
 
 const Header = () => {
   return (
@@ -7,8 +8,8 @@ const Header = () => {
       <section className="header">
         <div className="header-container">
           <div className="logo">
-            {/* <img src="" alt="" /> */}
-            <span className="logo-text">WCNBE</span>
+            <img src={logo} alt="" />
+            {/* <span className="logo-text">WCNBE</span> */}
           </div>
           <div className="navigation-bar">
             <Link to="/">
@@ -30,7 +31,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section>     
     </>
   );
 };

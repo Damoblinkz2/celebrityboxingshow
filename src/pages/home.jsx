@@ -1,4 +1,5 @@
 import "../styles/pages/home.scss";
+import logo from "../assets/images/logo.png";
 import searchIcon from "../assets/icons/searchicon.svg";
 import voteIcon from "../assets/icons/vote.svg";
 import streamIcon from "../assets/icons/stream.svg";
@@ -9,6 +10,7 @@ import inpersonTicket from "../assets/images/inpersonTicket.svg";
 import livestreamTicket from "../assets/images/livestreamTicket.svg";
 import phone from "../assets/images/phone.png";
 import laptop from "../assets/images/laptop.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -195,6 +197,47 @@ const Home = () => {
                   live stream offers multiple camera angles and expert commentary.
                 </p>
                 <div className="btn">Purchase Ticket</div>              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="footer">
+        <div className="section-container">
+          <div className="contents">
+            <div className="content">
+              <div className="logo">
+                <img src={logo} alt="logo" width={100}  height={100}/>
+              </div>
+
+              <p>
+                Experience the action from anywhere in the world! Our premium
+                live stream offers multiple camera angles and expert commentary.
+              </p>
+            </div>            
+
+            <div className="content links">
+              <div className="header">
+                Event
+              </div>
+
+              <div className="link"><Link></Link></div>
+            </div>
+
+            <div className="content links">
+              <div>
+                Eventick
+              </div>
+
+              <div className="link"><Link></Link></div>
+            </div>
+
+            <div className="content get-notified">
+              <div>
+                Get Notified, Stay Updated
+              </div>
+
+              <div className="link"><Link></Link></div>
             </div>
           </div>
         </div>

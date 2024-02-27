@@ -9,6 +9,11 @@
     padding: 50px;
 
     .logo {
+      img {
+        max-width: 80px;
+        max-height: 80px;
+        object-fit: contain;
+      }
       .logo-text {
         background: var(--primary-color);
         padding: 7px 20px;
@@ -23,12 +28,12 @@
       right: 0%;
       transform: translateX(0);
       width: auto;
-      a{
+      a {
         text-decoration: none;
         display: unset;
       }
       .navlinks {
-        &.active{
+        &.active {
           color: var(--primary-color);
         }
         color: #fff;
