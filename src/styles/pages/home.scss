@@ -612,7 +612,7 @@
         .dropdown-container {
           .get-ticket {
             max-width: 85.96px;
-            max-height: 27.83px;
+            min-height: 27.83px;
             padding: 5.49px;
             border-radius: 9.26px;
             gap: 5.49px;
@@ -899,6 +899,7 @@
     z-index: 100;
     background: #fff;
     height: auto;
+    text-align: center !important;
     .section-container {
       position: relative;
       display: grid;
@@ -925,32 +926,34 @@
         position: relative;
         .one {
           color: #22304e;
-          padding: calc(50px / var(--size-divisor));
+          padding: unset;
           h3 {
-            font-size: calc(27px / var(--size-divisor));
-            font-weight: 600;
-            line-height: calc(45px / var(--size-divisor));
+            font-size: 15.17px;
+            line-height: 24.25px;            
+            font-weight: 600;            
             letter-spacing: 0em;
-            text-align: right;
+            text-align: center;
           }
-          p {
-            font-size: calc(20px / var(--size-divisor));
+          p {            
+            font-size: 11px;
             font-weight: 500;
-            line-height: calc(30px / var(--size-divisor));
+            line-height: 16.5px;            
             letter-spacing: 0em;
-            text-align: right;
+            text-align: center;
           }
         }
         .two {
-          float: right;
+          display: grid;
+          justify-content: center;          
+          float: unset;
           color: #fff;
-          padding: 30px 50px 30px 0;
+          padding: unset;
           h3 {
             font-size: calc(32px / var(--size-divisor));
             font-weight: 700;
             line-height: calc(42px / var(--size-divisor));
             letter-spacing: 0em;
-            text-align: left;
+            text-align: center;
           }
 
           p {
@@ -959,7 +962,7 @@
             font-weight: 400;
             line-height: calc(30px / var(--size-divisor));
             letter-spacing: 0em;
-            text-align: left;
+            text-align: center;
           }
 
           .btn {
