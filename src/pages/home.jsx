@@ -229,7 +229,7 @@ const Home = () => {
           </div>
           <div className="content-two">
             <div className="one">
-              <h3>Experience the fight from anywhere! LIVE-STREAM!</h3>
+              <h3>Experience the fight from anywhere! <span className="hidden-sm">LIVE-STREAM!</span></h3>
               <p>Get exclusive access when you purchase a ticket!</p>
             </div>
             <div className="two">
