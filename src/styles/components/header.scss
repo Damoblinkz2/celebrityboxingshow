@@ -9,6 +9,7 @@
     padding: 50px;
 
     .logo {
+      cursor: pointer;
       img {
         max-width: 80px;
         max-height: 80px;
@@ -60,6 +61,24 @@
           &:hover {
             background: none;
             border: 1px solid var(--primary-color);
+          }
+        }
+      }
+
+      &.logged{        
+        display: inline-flex;
+        padding-right: 30px;
+        div{
+          position: relative;
+          display: grid;
+          justify-content: center;
+          align-items: center;    
+          top: 10px;      
+          img{
+            position: absolute;
+            left: 25%;
+            transform: translate(-25%);
+            bottom: 30px;
           }
         }
       }

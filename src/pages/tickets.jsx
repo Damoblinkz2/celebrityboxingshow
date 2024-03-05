@@ -1,16 +1,18 @@
-// import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "../styles/pages/tickets.scss";
 import Livestream from "../components/livestream";
 import Inperson from "../components/inperson";
-// var lifestream = true;
+
 
 const Tickets = () => {
+  const { ticketType } = useParams();
+  
   return (
     <>
       <section className="tickets">
         <div className="container">
-          {/* <Inperson /> */}
-          <Livestream />
+          {ticketType === 'inperson' && <Inperson />}
+          {ticketType === 'livestream' && <Livestream />}
         </div>
       </section>
     </>

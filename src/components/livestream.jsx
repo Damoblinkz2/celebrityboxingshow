@@ -67,7 +67,7 @@ const Livestream = () => {
                       </span>
                     </div>
                   </div>
-                  <span className="change-ticket-type">inperson-ticket?</span>
+                  <span className="change-ticket-type">IN-PERSON?</span>
                 </div>
               </div>
             </div>
