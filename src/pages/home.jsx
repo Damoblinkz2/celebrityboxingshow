@@ -12,6 +12,7 @@ import wizkidImage from "../assets/images/wizkid.jfif";
 import inpersonTicket from "../assets/images/inpersonTicket.svg";
 import livestreamTicket from "../assets/images/livestreamTicket.svg";
 import phone from "../assets/images/phone.png";
+import phoneMobile from "../assets/images/phoneMobile.png";
 import laptop from "../assets/images/laptop.png";
 import facebook from "../assets/icons/facebook.svg";
 import twitter from "../assets/icons/twitter.svg";
@@ -202,10 +203,12 @@ const Home = () => {
       </section>
       <section className="section-three">
         <div className="section-container">
+          <div className="content-one-mobile">
+           <img src={phone} alt="mobile" className="hidden-lg"/>
+          </div>
           <div className="content-one">
             <h3>GET YOUR TICKETS NOW!</h3>
             <p>Be there live or witness the action virtually!</p>
-
             <img src={inpersonTicket} alt="inperson" onClick={goToInperson} />
             <img
               src={livestreamTicket}
