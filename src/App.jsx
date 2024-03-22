@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import SignUP from "./pages/signup";
 import Login from "./pages/login";
 import Tickets from "./pages/tickets";
+import About from "./pages/about";
 // import Footer from "./components/footer";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/home" index element={<Home />} />
         <Route exact path="/signup" index element={<SignUP />} />
         <Route exact path="/login" index element={<Login />} />
+        <Route exact path="/about" index element={<About />} />
         <Route exact path="/tickets/:ticketType" index element={<Tickets />} />
       </Routes>
       {/* <Footer /> */}

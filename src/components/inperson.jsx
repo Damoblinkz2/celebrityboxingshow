@@ -67,7 +67,7 @@ const Inperson = () => {
                       </span>
                     </div>
                   </div>
-                  <span className="change-ticket-type">IN PERSON?</span>
+                  <span className="change-ticket-type">LIVESTREAM?</span>
                 </div>
               </div>
             </div>

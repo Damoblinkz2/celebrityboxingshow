@@ -222,7 +222,7 @@ const Home = () => {
         <div className="section-container">
           <div className="background"></div>
           <div className="content-one">
-            <img src={laptop} alt="laptop" className="hidden-sm"/>
+            <img src={laptop} alt="laptop" className="hidden-sm" />
           </div>
           <div className="content-two">
             <div className="one">
@@ -235,91 +235,98 @@ const Home = () => {
                 Experience the action from anywhere in the world! Our premium
                 live stream offers multiple camera angles and expert commentary.
               </p>
-              <div className="btn" onClick={goToLivestream}>Purchase Ticket</div>
+              <div className="btn" onClick={goToLivestream}>
+                Purchase Ticket
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section className="footer">
-        <div className="section-container">
-          <div className="contents">
-            <div className="content">
-              <div className="logo">
-                <img src={logo} alt="logo" width={100} height={100} />
-              </div>
-
-              <p>
-                Experience the action from anywhere in the world! Our premium
-                live stream offers multiple camera angles and expert commentary.
-              </p>
-
-              <div className="social-links hidden-sm">
-                <Link>
-                  <img src={facebook} alt="facebook" />
-                </Link>
-                <Link>
-                  <img src={twitter} alt="twitter" />
-                </Link>
-                <Link>
-                  <img src={linkedin} alt="linkedin" />
-                </Link>
-              </div>
-            </div>
-
-            <div className="content links">
-              <div className="header">Event</div>
-
-              <div className="link">
-                <Link>Buy Ticket</Link>
-              </div>
-              <div className="link">
-                <Link>Vote</Link>
-              </div>
-              <div className="link">
-                <Link>Live Stream</Link>
-              </div>
-            </div>
-
-            <div className="content links">
-              <div>Eventick</div>
-
-              <div className="link">
-                <Link>About</Link>
-              </div>
-              <div className="link">
-                <Link>Contact Us</Link>
-              </div>
-              <div className="link">
-                <Link>Help Center</Link>
-              </div>
-              <div className="link">
-                <Link>Privacy</Link>
-              </div>
-              <div className="link">
-                <Link>Terms</Link>
-              </div>
-            </div>
-
-            <div className="content get-notified hidden-sm">
-              <div>Get Notified, Stay Updated</div>
-
-              <p>
-                Join our mailing list to get notified and u with our newest for
-                Event and concert
-              </p>
-
-              <div className="get-notified-button">
-                <input type="email" placeholder="Enter your email address" />
-                <div className="btn">Get Notified</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="copyright">Copyright 2024 WCNBE</div>
-        </div>
-      </section>
+      <Footer />
     </>
+  );
+};
+
+export const Footer = () => {
+  return (
+    <section className="footer">
+      <div className="section-container">
+        <div className="contents">
+          <div className="content">
+            <div className="logo">
+              <img src={logo} alt="logo" width={100} height={100} />
+            </div>
+
+            <p>
+              Experience the action from anywhere in the world! Our premium live
+              stream offers multiple camera angles and expert commentary.
+            </p>
+
+            <div className="social-links hidden-sm">
+              <Link>
+                <img src={facebook} alt="facebook" />
+              </Link>
+              <Link>
+                <img src={twitter} alt="twitter" />
+              </Link>
+              <Link>
+                <img src={linkedin} alt="linkedin" />
+              </Link>
+            </div>
+          </div>
+
+          <div className="content links">
+            <div className="header">Event</div>
+
+            <div className="link">
+              <Link>Buy Ticket</Link>
+            </div>
+            <div className="link">
+              <Link>Vote</Link>
+            </div>
+            <div className="link">
+              <Link>Live Stream</Link>
+            </div>
+          </div>
+
+          <div className="content links">
+            <div>Eventick</div>
+
+            <div className="link">
+              <Link to="/about">About</Link>
+            </div>
+            <div className="link">
+              <Link>Contact Us</Link>
+            </div>
+            <div className="link">
+              <Link>Help Center</Link>
+            </div>
+            <div className="link">
+              <Link>Privacy</Link>
+            </div>
+            <div className="link">
+              <Link>Terms</Link>
+            </div>
+          </div>
+
+          <div className="content get-notified hidden-sm">
+            <div>Get Notified, Stay Updated</div>
+
+            <p>
+              Join our mailing list to get notified and u with our newest for
+              Event and concert
+            </p>
+
+            <div className="get-notified-button">
+              <input type="email" placeholder="Enter your email address" />
+              <div className="btn">Get Notified</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="copyright">Copyright 2024 WCNBE</div>
+      </div>
+    </section>
   );
 };
 
