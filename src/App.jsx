@@ -6,6 +6,7 @@ import SignUP from "./pages/signup";
 import Login from "./pages/login";
 import Tickets from "./pages/tickets";
 import About from "./pages/about";
+import Team from "./pages/team";
 // import Footer from "./components/footer";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/login" index element={<Login />} />
         <Route exact path="/about" index element={<About />} />
         <Route exact path="/tickets/:ticketType" index element={<Tickets />} />
+        <Route exact path="/team" index element={<Team />} />
       </Routes>
       {/* <Footer /> */}
     </>

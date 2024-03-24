@@ -302,7 +302,7 @@ export const Footer = () => {
               <Link>Contact Us</Link>
             </div>
             <div className="link">
-              <Link>Help Center</Link>
+              <Link to="/team">Team</Link>
             </div>
             <div className="link">
               <Link>Privacy</Link>
